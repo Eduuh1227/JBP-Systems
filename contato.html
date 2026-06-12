@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato | JBP Systems</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contato">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="JBP Systems">
+        <img src="assets/brand-logo.jpeg" alt="JBP Systems" />
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a data-page="solucoes" href="solucoes.html">Soluções</a>
+        <a data-page="sistemas" href="sistemas.html">Sistemas</a>
+        <a data-page="erp" href="erp.html">ERP</a>
+        <a data-page="segmentos" href="segmentos.html">Segmentos</a>
+        <a data-page="sobre" href="sobre.html">Sobre nós</a>
+        <a data-page="contato" href="contato.html">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Buscar">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m16.2 16.2 4.3 4.3"></path>
+          </svg>
+        </button>
+        <a class="outline-button" href="contato.html">Fale conosco</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact panel">
+        <div class="contact-copy">
+          <h1>Fale com a gente</h1>
+          <p>Estamos prontos para entender o seu negócio e oferecer a melhor solução.</p>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.7 19.7 0 0 1-8.6-3.1 19.3 19.3 0 0 1-6-6A19.7 19.7 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+              <span>(11) 99999-9999</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z"></path><path d="m4 7 8 6 8-6"></path></svg>
+              <span>contato@jbpsystems.com.br</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>São Paulo - SP</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label>
+              <span>Nome</span>
+              <input type="text" name="nome" placeholder="Nome" />
+            </label>
+            <label>
+              <span>E-mail</span>
+              <input type="email" name="email" placeholder="E-mail" />
+            </label>
+          </div>
+          <label>
+            <span>Telefone</span>
+            <input type="tel" name="telefone" placeholder="Telefone" />
+          </label>
+          <label>
+            <span>Mensagem</span>
+            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+          </label>
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
